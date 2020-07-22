@@ -1,4 +1,4 @@
-# how-to-change-the-image-in-gridimagecolumn-after-mouse-hover-in-winforms-datagrid
+# How to change the image in GridImageColumn after mouse hover in WinForms DataGrid (SfDataGrid)?
 
 ## About the sample.
 This sample illustrates that how to change the image in gridimagecolumn after mouse hover in winforms datagrid.
@@ -28,7 +28,10 @@ private void SfDataGrid1_ToolTipOpening(object sender, ToolTipOpeningEventArgs e
     }
 }
 ```
+
+
+![Image in tooltip](Image%20in%20tooltip.png)
+
 ## Requirements to run the demo
 Visual Studio 2015 and above versions
 
-![Image in tooltip](Image%20in%20tooltip.png)
