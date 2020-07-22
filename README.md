@@ -1,7 +1,12 @@
 # how-to-change-the-image-in-gridimagecolumn-after-mouse-hover-in-winforms-datagrid
+
+## About the sample.
+This sample illustrates that how to change the image in gridimagecolumn after mouse hover in winforms datagrid.
+
 By default, the Tooltip for grid cells will be loaded with CellValue. To add image in tooltip, the ToolTipOpening event can be used. In that event, the ToolTipInfo for the items can be updated with image.
 
-```//Event subscription
+```C#
+//Event subscription
 this.sfDataGrid1.ToolTipOpening += SfDataGrid1_ToolTipOpening;
 
 //Event customization
@@ -23,4 +28,7 @@ private void SfDataGrid1_ToolTipOpening(object sender, ToolTipOpeningEventArgs e
     }
 }
 ```
+## Requirements to run the demo
+Visual Studio 2015 and above versions
+
 ![Image in tooltip](Image%20in%20tooltip.png)
